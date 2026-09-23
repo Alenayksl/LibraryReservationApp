@@ -2,7 +2,7 @@
 
 Bu proje, Next.js tabanlı çok dilli (i18n destekli) modern bir kütüphane rezervasyon sistemidir. Kullanıcılar, oturum açarak belirli tarih ve saat aralıklarında müsait odaları görüntüleyebilir, rezervasyon oluşturabilir, güncelleyebilir ve silebilir. Proje, TypeScript, SWR, Zustand, JWT ve uluslararasılaştırma desteği ile geliştirilmiştir.
 
-# 📦 Özellikler
+# Özellikler
 
 -  Çok dilli destek (Türkçe ve İngilizce)
 -  JWT tabanlı kullanıcı doğrulama
@@ -12,7 +12,7 @@ Bu proje, Next.js tabanlı çok dilli (i18n destekli) modern bir kütüphane rez
 -  SWR ile veri önbellekleme ve sayfalama
 -  Responsive ve kullanıcı dostu arayüz
 
-# 🔗 Bağlı Backend
+# Bağlı Backend
 
 Bu frontend projesi, aşağıdaki Node.js tabanlı API servisi ile entegre çalışmaktadır:
 
@@ -25,7 +25,7 @@ API'nin çalıştığı adres `.env.local` dosyasında aşağıdaki gibi belirti
 ```env
 NEXT_PUBLIC_API_URL=http://localhost:3001/api
 ```
-# 🚀 Kurulum
+# Kurulum
 Bu repoyu klonlayın:
 
 ```
@@ -47,7 +47,7 @@ Geliştirme sunucusunu başlatın:
 ```
 npm run dev
 ```
-# 🌍 Uluslararasılaştırma (i18n)
+# Uluslararasılaştırma (i18n)
 Proje, next-intl kütüphanesi ile çoklu dil desteği sağlamaktadır. Desteklenen diller:
 
 tr - Türkçe (varsayılan)
@@ -56,10 +56,10 @@ en - İngilizce
 
 Dil değişimi kullanıcı panelinden yapılabilir.
 
-# 🗃️ Durum Yönetimi
+# Durum Yönetimi
 Kullanıcı oturumu ve kullanıcı bilgileri Zustand kullanılarak yönetilmektedir. Veriler localStorage ile kalıcı hale getirilmiştir.
 
-# 🔐 Kimlik Doğrulama
+# Kimlik Doğrulama
 Giriş yapan kullanıcının JWT accessToken ve refreshToken bilgileri cookie olarak saklanır.
 
 Middleware ile korunan rotalara erişim kontrolü sağlanır (/reserve, /reservegor, /profile).
@@ -126,7 +126,7 @@ Token bulunmuyorsa kullanıcı giriş sayfasına yönlendirilir.
 📄 package.json          → Bağımlılıklar ve script'ler  
 📄 tsconfig.json         → TypeScript yapılandırması  
 
-# 🖼️ Sayfa Görünümleri
+# Sayfa Görünümleri
 
 ![Login Sayfası](./public/assets/login.jpg)
 ![Home Sayfası](./public/assets/register.jpg)
